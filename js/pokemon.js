@@ -90,6 +90,7 @@ function render(poke) {
                   <div class="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
            <div 
   class="h-2 rounded-full stat-bar ${getStatColor(s.base_stat)}"
+  
   style="--final-width:${s.base_stat / 2}%;">
 </div>
                 </div>
@@ -136,3 +137,4 @@ async function renderPokemon() {
 renderPokemon();
 
 
+// A comment
